@@ -1,0 +1,6 @@
+# CI 最小依赖：只跑不依赖 torch / sentence-transformers / PyMuPDF 的测试。
+# 重型依赖相关测试在 tests 中用 pytest.importorskip 自动跳过。
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+pytest>=7.4
